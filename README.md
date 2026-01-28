@@ -1,4 +1,4 @@
-# Data Cleaning Pipeline: From Chaos to Clarity
+# Data Cleaning Pipeline
 
 Real-world data is messy. This project tackles the unglamorous but essential work of transforming raw, inconsistent data into something analysts can actually use. What started as a dataset riddled with duplicates, formatting inconsistencies, and missing values became a clean, standardized dataset ready for meaningful analysis.
 
