@@ -4,7 +4,7 @@ Real-world data is messy. This project tackles the unglamorous but essential wor
 
 ## The Problem
 
-The raw data presented several challenges that would have made any downstream analysis unreliable or impossible. Duplicate records threatened to skew aggregate statistics. Phone numbers appeared in half a dozen different formats—some with country codes, some with dashes, others with parentheses or spaces. Critical information was buried in combined columns that needed to be split apart. Missing values lurked throughout, waiting to break calculations. String fields carried excess whitespace that would cause matching failures. And unnecessary columns cluttered the dataset, making it harder to work with and understand.
+The raw data presented several challenges that would have made any downstream analysis unreliable or impossible. Duplicate records threatened to skew aggregate statistics. Phone numbers appeared in half a dozen different formats; some with country codes, some with dashes, others with parentheses or spaces. Critical information was buried in combined columns that needed to be split apart. Missing values lurked throughout, waiting to break calculations. String fields carried excess whitespace that would cause matching failures. And unnecessary columns cluttered the dataset, making it harder to work with and understand.
 
 These aren't just cosmetic issues. Duplicate records can double-count customers or transactions. Inconsistent phone formatting prevents matching and communication. Missing values cause functions to fail or produce incorrect results. This cleaning pipeline addresses these fundamental data quality issues systematically.
 
